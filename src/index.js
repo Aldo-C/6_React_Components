@@ -13,4 +13,7 @@ import App from "./components/App";
 //}
 
 // React HTML elements are inserted by name and if the element has no children then best practice is to use a self-closing bracket
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+);
